@@ -1,0 +1,345 @@
+@media(width <=576px){
+    .navBar{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .logo{
+        justify-content: left;
+        margin: 0rem;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .navQuote button{
+        margin: 0;  
+        margin-top: 1.5rem;
+        font-size: 1.2rem;
+        border-radius: 5rem;
+        padding: 1.1rem 1.3rem;
+    }
+
+    .approachCards{
+        grid-template-columns: 1fr;
+    }
+
+    .process{
+        margin-bottom: 3rem;
+    }
+
+    .analytic{
+        margin-bottom: 3rem;
+    }
+
+    .research{
+        margin-bottom: 3rem;
+    }
+
+    .designApproach{
+        margin-bottom: 3rem;
+    }
+
+    .develop{
+        margin-bottom: 3rem;
+    }
+
+    .info button{
+        padding: 1.1rem 1.3rem;
+        font-size: 1.2rem;
+    }
+
+    .get button{
+        padding: 1.1rem 1.3rem;
+        font-size: 1.2rem;
+    }
+
+    .servicesBody{
+        grid-template-columns: 1fr;
+    }
+
+
+    .design{
+        margin-bottom: 2rem;
+    }
+
+    .design p{
+        width: 75%;
+        line-height: 1.5;
+    }
+
+    .digital{
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+
+    .digital p{
+        width: 75%;
+        line-height: 1.5;
+    }
+
+    .tech{
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+
+    .tech p{
+        width: 80%;
+        line-height: 1.5;
+    }
+
+    .contactContainer{
+        padding: 0;
+    }
+
+    .questionTitle{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .questionTitle h2{
+        margin: 0;
+        width: 100%;
+        padding: 0 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .questionTitle button{
+        margin: 0;
+        width: 35%;
+        padding: 1.5rem 2rem;
+        margin-left: 1.5rem;
+    }
+
+    .brandCard{
+        grid-template-columns: 1fr;
+        margin: 0;
+    }
+
+    .trusted{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    
+    .project{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+
+    .customer{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .teamBody{
+        grid-template-columns: 1fr;
+    }
+    
+    .projTyper{
+        width: 100%;
+    }
+
+    .testimonial{
+        grid-template-columns: 1fr;
+        position: relative;
+    }
+
+    .happy{
+        margin: 0;
+        padding: 0;
+        width: 50%;
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+
+    .feed{
+        margin: 0;
+        /* margin-top: 2rem; */
+    }
+
+    .feedIn{
+        margin-left: 2rem;
+    }
+
+    .avatar{
+        position: absolute;
+        left: 3rem;
+        top: 31rem;
+    }
+
+    .avatarBg{
+        position: absolute;
+        left: 0rem;
+        top: 29rem;
+    }
+
+    .quoteContainer{
+        padding: 0;
+    }
+
+    .atwias{
+        grid-template-columns: 1fr;
+    }
+
+    .dev{
+        grid-template-columns: 1fr;
+    }
+
+    .contact{
+        margin-bottom: 6rem;
+    }
+
+    .contact h3{
+       margin-bottom: 1rem;
+    }
+
+    .devDesign{
+        margin-bottom: 4rem;
+    }
+
+    .devDigital{
+        margin-bottom: 4rem;
+    }
+
+    .devTech{
+        margin-bottom: 4rem;
+    }
+
+    .copyright{
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .copy2{
+        margin: 0;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .social{
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+
+
+}
+
+
+@media(width>=576.2px) and (width <=768px){
+    .navBar{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .logo{
+        justify-content: left;
+        margin-left: 3rem;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .navQuote button{
+        margin: 0;  
+        font-size: 1.2rem;
+        border-radius: 5rem;
+        padding: 2.2rem 2.5rem;
+    }
+
+    .approachCards{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .designApproach{
+        margin-top: 3.5rem;
+    }
+
+    .contactContainer{
+        padding: 0;
+    }
+
+    .questionTitle h2{
+        margin: 0;
+        width: 100%;
+        padding: 0 1.5rem;
+    }
+
+    .questionTitle button{
+        margin: 0;
+        width: 35%;
+        padding: 1.5rem 2rem;
+        margin-left: 1.5rem;
+    }
+
+    .brandCard{
+        grid-template-columns: 1fr;
+        margin: 0;
+    }
+
+    .trusted{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    
+    .project{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+
+    .customer{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .headTitle{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .teamBody{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .testimonial{
+        grid-template-columns: 1fr 2fr;
+        position: relative;
+    }
+
+    .happy{
+        margin: 0;
+        padding: 0;
+        width: 70%;
+        margin-left: 5rem;
+    }
+
+    .feed{
+        margin: 0;
+        padding: 10rem 1rem;
+    }
+    
+
+    .avatar{
+        position: absolute;
+        left: 23rem;
+        top: 8rem;
+    }
+
+    .avatarBg{
+        position: absolute;
+        left: 20rem;
+        top: 6rem;
+    }
+
+    .atwias{
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .dev{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    
+}

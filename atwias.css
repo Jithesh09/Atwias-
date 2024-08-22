@@ -1,0 +1,743 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+
+
+/* * Default code starts here */ 
+
+
+* {
+        letter-spacing: 0.1rem;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /* text-wrap: pretty; */
+        /* border: 0.2rem solid #000000; */
+}
+
+body{
+    line-height: 1.3;
+    -webkit-font-smoothing: antialiased;
+    background-color: #f0f8ff;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 100;
+    color: var(--fontColor);
+    
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    /* text-wrap: balance; */
+}
+
+input,
+textarea,
+button{
+    font-family: inherit;
+}
+
+img,
+picture,
+video,
+canvas,
+svg{
+    display: block;
+    max-width: 100%;
+}
+
+:root {
+    --primaryColor: #fcb03b;
+    --secondaryColor: #e91d62;
+    --darkColor: #6739b6;
+    --fontColor: #2f2c2c;
+    --regularFont: 1.6rem;
+    --headingFont: 54px;
+    --ffprimary: "Nunito", sans-serif;
+    --ffsecondary: "Merienda", cursive;
+}
+
+/* Default code ends here */
+
+/* Parent container code starts here */
+
+header{
+    width: 100%;
+    height: auto;
+}
+
+main{
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+}
+
+/* Parent container code ends here */
+
+/* row default code starts here */
+.grid-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-12{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-22{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+/* row default code ends here */
+
+
+/* Column default code starts here */
+.dflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.dflex-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.dflex-left{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+}
+
+.dflex-left-col{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+}
+
+.dflex-right{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-align: right;
+}
+
+.dflex-right-col{
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    text-align: right;
+    flex-direction: column;
+}
+
+
+/* column default code ends here */
+
+/* component container starts here */
+
+.align{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 3rem;
+}
+
+/* component container ends here */
+
+/* component starts here */
+
+.componentspacing{
+    padding: 3rem 0;
+}
+
+/* component ends here */
+
+/* animation code starts here */
+
+
+
+/* animation code ends here */
+
+.navBar{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    
+}
+
+.logo{
+    width: 23rem;
+    margin-left: 14.5rem;
+}
+
+.navLinks{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.navLinks ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navLinks ul li a{
+    text-decoration: none;
+    color: var(--fontColor);
+    
+}
+
+.navQuote button{
+    font-size: 1.5rem;
+    border-radius: 5rem;
+    padding: 2.2rem 2.5rem;
+    background-color: var(--secondaryColor);
+    border: none;
+    color: #ffff;
+    margin-right: 14.5rem;
+}
+
+.carouselBody{
+    margin-bottom: 3rem;
+}
+
+.approachBody h3{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.approachBody  h2{
+    font-size: 3.7rem;
+    margin-bottom: 1rem;
+}
+
+.approachBody p{
+    color: #9299a4;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.approachCards{
+    margin-bottom: 3rem;
+    height: auto;
+}
+
+.approachCards img{
+    width: 55%;
+   aspect-ratio: 1/1;
+}
+
+.approachCards figure{
+    margin-bottom: 2rem;
+}
+
+.approachCards h2{
+    font-size: 2.8rem;
+}
+
+.approachCards p{
+    font-size: 1.4rem;
+    color: #9299a4;
+
+}
+
+.info{
+    padding: 0 3rem;
+}
+
+ .info button{
+    color: #ffff;
+    border-radius: 5rem;
+    border: none;
+    background-color: #2f2c2c;
+    padding: 2rem 3rem;
+    font-size: 1.8rem;
+}
+
+.get{
+    padding: 0 3rem;
+}
+
+ .get button{
+    color: #ffff;
+    border-radius: 5rem;
+    border: none;
+    background-color: #4cc2c0;
+    padding: 2rem 3rem;
+    font-size: 1.8rem;
+}
+
+.headingTitle h3{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.headingTitle h2{
+    font-size: 3.7rem;
+    margin-bottom: 1rem;
+}
+
+
+.headingTitle p{
+    color: #9299a4;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.design img{
+    margin-bottom: 1rem;
+    width: 20%;
+}
+
+.design h4{
+    color: #5513a0;
+    font-size: 1.7rem;
+}
+
+.design p{
+    color: #9299a4;
+    font-size: 1.5rem;
+}
+
+.digital{
+    margin-left: 3rem;
+}
+
+.digital img{
+    width: 23%;
+    margin-bottom: 1rem;
+}
+
+.digital h4{
+    color: #5513a0;
+    font-size: 1.7rem; 
+}
+
+.digital p{
+    color: #9299a4;
+    font-size: 1.5rem;
+}
+
+.tech{
+    margin-left: 3rem;
+}
+
+.tech img{
+    width: 23%;
+    margin-bottom: 1rem;
+}
+
+.tech h4{
+    color: #5513a0;
+    font-size: 1.7rem; 
+}
+
+.tech p{
+    color: #9299a4;
+    font-size: 1.5rem;
+}
+
+.contactContainer{
+    background-color: #00adef;
+    padding: 4rem 0;
+}
+
+.question{
+    column-gap: 4rem;
+}
+
+.questionTitle h2{
+    font-size: 3.4rem;
+    color: #ffff;
+    width: 100%;
+    margin-left: 12rem;
+}
+
+.questionTitle button{
+    background-color: #fecb16;
+    color: #ffff;
+    font-size: 1.4rem;
+    border-radius: 4rem;
+    border: none;
+    padding: 2.5rem 1.5rem;
+    width: 20%;
+    margin-right: 25rem;
+}
+
+.headTitle h3{
+    margin-bottom: 1rem;
+}
+
+.headTitle h2{
+    margin-bottom: 1rem;
+}
+
+.brandCard{
+    height: auto;
+    margin-bottom: 8rem;
+}
+
+.brandCard figure{
+    width: 18%;
+}
+
+.brandCard h2{
+    color: #5513a0; 
+   font-size: 7rem; 
+}
+
+.brandCard p{
+    font-size: 1.5rem;
+    color: #9299a4;
+}
+
+.trusted{
+    width: 80%;
+    max-height: 27rem;
+    background-color: #ffff;
+    padding: 5rem 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project{
+    background-color: #ffff;
+    width: 80%;
+    padding: 5rem 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 8rem;
+}
+
+.customer{
+    width: 80%;
+    max-height: 27rem;
+    background-color: #ffff;
+    padding: 5rem 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.headTitle{
+    margin-left: 80rem;
+    width: 45%;
+}
+
+.headTitle h3{
+    font-size: 1.8rem;
+}
+
+.headTitle h2{
+    font-size: 3.7rem;
+}
+
+.teamBody{
+    margin: 0rem 6rem;
+    padding: 2rem 0;
+    margin-bottom: 7rem;
+}
+
+.teamBody a{
+    text-decoration: none;
+    color: #fecb16;   
+}
+
+.teamBody figcaption{
+    position: relative;
+    top: -6.6rem;
+    font-size: 1.7rem;
+}
+
+.tourism figcaption{
+    background-color: #5513a0;
+    padding: 2rem;
+}
+
+.realEstate figcaption{
+    background-color: #5513a0; 
+    padding: 2rem;
+}
+
+.fmcg figcaption{
+    background-color: #5513a0;
+    padding: 2rem;
+}
+
+.education figcaption{
+    background-color: #5513a0;
+    padding: 2rem;
+}
+
+.projHead h2{
+    font-size: 3.5rem;
+}
+
+.yellow{
+    height: 72rem;
+    width: 35%;
+    background-color: #fecb16;
+    position: absolute;
+    margin-top: -75rem;
+    z-index: -2;
+}
+
+ .brand{
+    font-size: 2.5rem;
+}
+
+ .projectApproach{
+    font-size: 2.5rem;
+}
+
+.cusApproach{
+    font-size: 2.5rem;
+}
+
+.teamBody{
+    column-gap: 2rem;
+}
+
+.projHead h2{
+    margin-bottom: 2rem;
+}
+
+.projTypes{
+    column-gap: 2rem;
+}
+
+
+.vels{
+    width: 100%;
+}
+
+.disney{
+    width: 100%;
+}
+
+.arvind{
+    width: 100%;
+}
+
+.repose{
+    width: 100%;
+}
+
+.sreeleathers{
+    width: 100%;
+}
+
+.revolt{
+    width: 100%;
+}
+
+.vasanth{
+    width: 100%;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+.projTypes{
+    animation-name: slide;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.testimonial {
+    background-color: #fcb03b;
+    position: relative;
+}
+
+.happy{
+    margin-left: 15rem;
+    margin-right: 25rem ;
+    padding: 2rem;
+}
+
+.happy h2{
+    font-size: 3rem;
+}
+
+.happy p{
+    font-size: 2rem;
+    color: #ffff;
+}
+
+.feed{
+    padding: 14rem 0;
+    margin-right: 5rem;
+}
+
+.avatar{
+    position: absolute;
+    z-index: 2;
+    left: 75rem;
+    top: 12rem;
+}
+
+.avatarBg{
+    position: absolute;
+    z-index: 1;
+    left: 72rem;
+    top: 10rem;
+}
+
+.feedIn{
+    padding: 7rem 10rem;
+    border: none;
+    border-radius: 0 10rem 0 10rem;
+    background-color: #362f2d;
+    width: 90%;
+}
+
+.feedIn h2{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    font-size: 2.2rem;
+    color: #d9d8d7;
+}
+
+.feed h3{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    color: #dabd42;
+}
+
+.feed h5{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    color: #9299a4;
+}
+
+.sectors{
+    background-image: url(assets/images/section-bg02.png);
+    background-size: 20rem;
+}
+
+.background{
+    background-color: #ffff;
+}
+
+.quoteContainer{
+    background-color: #dc1a5c;
+    padding: 4rem 0;
+}
+
+.copy{
+    background-color: #000000;
+    color: #ffff;
+    padding: 8rem 0 0 0;
+}
+
+.atwiasLogo p{
+  font-size: 1.7rem; 
+  color: #9299a4;   
+  line-height: 2.5rem;
+  margin-bottom: 4rem;
+  width: 85%;
+}
+
+.atwiasLogo figure{
+    margin-bottom: 4rem;
+}
+
+.contact h3{ 
+    font-size: 1.5rem;
+    color: #fecb16;
+    margin-bottom: 2rem;
+}
+
+.contact i{
+    color: #fecb16;
+    font-size: 2rem;
+    line-height: 5rem;
+    margin-right: 0.8rem;
+}
+
+.contact p{
+    font-size: 1.5rem;
+}
+
+.dev {
+    border-bottom: solid  0.2rem #2a2a2b;
+    margin-bottom: 2rem
+}
+
+.dev h3{
+    font-size: 1.5rem;
+    color: #fecb16;
+    margin-bottom: 1rem;
+}
+
+.dev p{
+    font-size: 1.5rem;
+    line-height: 3.3rem;
+}
+
+.copy2 h4{
+    font-size: 1.3rem;
+    margin-right: 12rem;
+}
+
+.social{
+    font-size: 3rem;
+    margin-left: 20rem;
+}
+
+.social i{
+    padding: 1rem;
+    color: #fecb16;
+}
+
+/* responsive code starts here */
+
+/* resposive code ends here */
