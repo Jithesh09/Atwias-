@@ -242,6 +242,16 @@ footer{
     margin-bottom: 3rem;
 }
 
+.slider img{
+    width: 100%;
+    display: none;
+}
+
+
+img.displaySlide{
+    display: block;
+}
+
 .approachBody h3{
     font-size: 1.8rem;
     margin-bottom: 1rem;
